@@ -1,0 +1,57 @@
+*, ::after, ::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+body{
+    background-color: #669bbc;
+}
+.wrapper
+{
+    background-color: #003049;
+    padding: 80px 40px;
+    width: 80vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.emoji
+{
+    display: block;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jokespan
+{
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button
+{
+    background-color: #669bbc;
+    font-size: 1.5rem;
+    color: #003049;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+}
